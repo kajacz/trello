@@ -42,18 +42,37 @@
   border-bottom: 1px solid #cccccc;
   border-top: 1px solid #cccccc;
   visibility: visible !important;
-  background: #efefef !important;
+  /* background: !important; */
   visibility: visible !important;
 }
 .ui-sortable-placeholder * {
   opacity: 0;
   visibility: hidden;
 }
-table tr td:empty {
-  width: 50px;
+
+th,
+td {
+  background: rgb(228, 224, 224);
 }
 
-table tr td {
-  padding-top: 10px;
-  padding-bottom: 10px;
+table.sar-table th {
+  background: rgb(228, 224, 224);
+  font-size: 13px;
+  font-weight: bold;
+}
+.table-content {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 2px 2px #8888887e;
+  font-size: 13px;
+}
+li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+ul {
+  display: inline;
+}
+td {
+  padding: 0 15px 0 15px;
 }
